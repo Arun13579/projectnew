@@ -1,0 +1,53 @@
+.fullheit {
+  /* height: 600px; */
+  overflow: hidden;
+  box-shadow: 0 0 29px 0 black;
+  background-color: rgb(68 88 144 / 12%);
+  border-radius: 5px;
+  background-image: url(./Assets/wall);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color {
+  color: white;
+  text-shadow: 2px 3px brown;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.addbut {
+  color: black;
+}
+.intextheit {
+  height: 37px;
+  color: black;
+  box-shadow: 0 0 5px 0 black;
+  background-color: rgb(182, 174, 174);
+  border-radius: 5px;
+  font-size: 19px;
+  overflow: hidden;
+}
+.optext {
+  overflow: hidden;
+}
+.butcolor1 {
+  color: white;
+  box-shadow: 0 0 1px 0 black;
+  background-color: rgb(76, 173, 76);
+  border-radius: 5px;
+  font-size: 15px;
+}
+.butcolor1:hover {
+  color: white;
+  background-color: black;
+}
+.butcolor2 {
+  color: white;
+  box-shadow: 0 0 1px 0 black;
+  background-color: rgb(230, 54, 54);
+  border-radius: 5px;
+  font-size: 15px;
+}
+.butcolor2:hover {
+  color: white;
+  background-color: black;
+}
