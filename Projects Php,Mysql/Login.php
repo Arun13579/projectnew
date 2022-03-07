@@ -23,9 +23,7 @@
     <link href="./Singupstyle.css" rel="stylesheet" />
   </head>
   <body>
-    <?php
-    session_start();
-    ?>
+   
     <container>
       <row>
         <div
@@ -41,10 +39,12 @@
                 </span>
                 <input
                   type="text"
-                  class="form-control"
+                  id="idnam1"
+                  class="form-control idname"
                   placeholder="Username"
                   aria-label="Username"
                   aria-describedby="basic-addon1"
+                  name="nam1"
                 />
               </div>
               <div class="input-group mb-3">
@@ -52,26 +52,95 @@
                   <img src="./Assets/lock-solid.svg" alt="" width="17px" />
                 </span>
                 <input
-                  type="text"
+                  type="password"
+                  id="idpassword1"
                   class="form-control"
                   placeholder="password"
                   aria-label="Username"
                   aria-describedby="basic-addon1"
+                  name="password1"
                 />
               </div>
             <button
               type="submit"
               class="btn btn-outline-dark bg-primary mt-3 mb-3 col-4 color"
+              name="login"
             >
               <b>Log in</b>
             </button>
           </form>
-
-          <h6><b>Terms & Condition and Privacy Policy</b></h6>
+            <h6><b>Terms & Condition and Privacy Policy</b></h6>
           <h6>Designed by</h6>
           <h1><b>D.ARUN</b></h1>
         </div>
       </row>
     </container>
   </body>
+
+  <?php 
+
+$con1=mysqli_connect("localhost","root","arun","signuplogin");
+
+if(isset($_POST["login"]))
+{
+   $nam1=$_POST["nam1"];
+   $password1=$_POST["password1"];      
+   // echo "ture it";
+   $sql="SELECT * from signup where name in ('$nam1')";
+  $result=mysqli_query($con1,$sql);
+      
+  while ($row=$result->fetch_assoc())
+    {
+       $name=$row["name"];
+       $e=$row["email"];
+       $pass=$row["password"];              
+    }
+    if($nam1=="")
+    {
+      echo '<script> 
+        document.getElementById("idnam1").placeholder="PLEASE Enter Your Name";
+        document.getElementById("idnam1").style.borderColor="red";
+             </script>';
+    }
+    elseif($password1 == "")
+    {
+      echo '<script> 
+        document.getElementById("idpassword1").placeholder="PLEASE Enter Your Password";
+        document.getElementById("idpassword1").style.borderColor="red";
+        </script>';
+    }
+    else{
+   if(($nam1==$name) && ($password1==$pass))
+     {
+        echo '<script>alert("***** LOGIN SUCCESSFULLY ******")</script>';
+        echo '<div class="col-12 bg mt-2 pt-3 pb-3 bg-success btn">';
+        echo '<h1><b>YOUR ACCOUNT DETAILS</b></h1>';
+        echo '<h2>Your Name:',$name,'</h2>';
+        echo '<h2>Your Email Address:',$e,'</h2>';
+        echo '<h2>Your Password:',$pass,'</h2>';
+        echo ' </div>';
+       
+       echo '
+       <div class="col-12 text-center mx-auto  bg-info pt-3 pb-2 btn">
+       <h2><b>GO TO SIGNUP PAGE</b></h2>
+       <h2><b>Click to SIgn Up BUTTON</b></h2>
+       <a href="./Singup.php">
+        <button
+       type="button"
+       class="btn btn-outline-dark bg-primary mt-3 mb-3 col-2 color"  
+     >
+       <b>SIGN UP</b>
+     </button> 
+     </a>
+     </div>';
+     }
+   else
+    {
+       echo '<script>alert("***** WRONG LOGIN DETAILS ******")</script>';
+    }
+  }
+}
+
+?>
+  
 </html>

@@ -6,3 +6,8 @@
 .color {
   color: white;
 }
+.idcolor {
+  color: red;
+  background-color: green;
+  border: 10px solid red;
+}
