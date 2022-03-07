@@ -1,0 +1,264 @@
+.navc {
+  background-color: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 50%);
+}
+.nls {
+  font-size: 25px;
+}
+.ncs {
+  font-size: 17px;
+  font-weight: 500;
+}
+.navch:hover {
+  color: #cdb30c !important;
+}
+
+.cimg1 {
+  background-image: url(./assets/xbg_1.jpg.pagespeed.ic.Tg4OKt8DCq.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 657px;
+}
+.cimg2 {
+  background-image: url(./assets/bg_2.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 657px;
+}
+.hfs {
+  font-size: 20px;
+}
+.ht1 {
+  color: white;
+}
+.ht2 {
+  color: black;
+}
+.htw {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.hb1 {
+  height: 50px;
+  background-color: #cdb30c;
+  color: white;
+}
+.hb2 {
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+/* 
+body,
+html {
+  height: 100%;
+} */
+
+.parallax {
+  /* The image used */
+  background-image: url(./assets/photo-1586165368502-1bad197a6461.jpg);
+
+  /* Full height */
+  height: 110%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .partext {
+  height: 1000px;
+  background-color: rgb(255, 144, 144);
+} */
+.hdiv1 {
+  height: 240px;
+  overflow: hidden;
+}
+.hdiv {
+  height: 240px;
+  border-radius: 5px;
+  background-color: #cdb30c;
+  overflow: hidden;
+}
+.dcc {
+  color: white;
+}
+
+.fxc {
+  color: #cdb30c;
+}
+.homedivsize {
+  height: 560px;
+}
+.homenotih {
+  height: 105px;
+  background-color: #cdb30c;
+}
+.bulbcolor {
+  color: #cdb30c;
+}
+.homenotih1 {
+  height: 105px;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url(./assets/bg_4.jpg.webp);
+
+  /* Full height */
+  height: 120%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paricon {
+  height: 80px;
+  background-color: #cdb30c;
+}
+.paricon2 {
+  height: 80px;
+  color: white;
+  background-color: #cdb30c;
+  overflow: hidden;
+}
+.about2h {
+  height: 850px;
+  /* background-color: whitesmoke; */
+}
+.bcolor {
+  background-color: #cdb30c;
+  color: black;
+}
+.b4ov {
+  overflow: hidden;
+  list-style: none;
+}
+.about2img {
+  height: 325px;
+}
+.tcy {
+  color: #cdb30c;
+}
+.viewbut {
+  color: #cdb30c;
+  border: 2px solid #cdb30c;
+}
+.viewbut:hover {
+  background-color: #cdb30c;
+  color: white;
+}
+.stap1img {
+  height: 300px;
+}
+.recentcolor {
+  color: white;
+}
+.recentbgc {
+  height: 370px;
+  /* background-color: black; */
+}
+
+.recentimg1h {
+  height: 300px;
+}
+.carolhei {
+  /* height: 500px; */
+  background-color: #cdb30c;
+}
+.recentimgoffh {
+  height: 150px;
+}
+.Subscribe {
+  background-color: #d1a626;
+  background-image: url(./assets/bg_4.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: black;
+}
+.textshow {
+  text-shadow: 2px 2px 2px #cdb30c;
+  font-weight: bolder;
+  /* font-size: 30px; */
+}
+.footerh {
+  /* height: 350px; */
+}
+.footul {
+  text-decoration: none;
+  list-style: none;
+}
+.endicon {
+  color: white;
+  border: 15px solid #cdb30c;
+  border-radius: 50px;
+  background-color: #cdb30c;
+}
+.enda {
+  text-decoration: none;
+}
+.endt {
+  font-size: 18px;
+}
+.focolor {
+  color: rgb(211, 200, 200);
+}
+.mapcolor {
+  color: white;
+}
+.endcopy {
+  background-color: black;
+}
+.my {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: orangered;
+  font-weight: bolder;
+  text-shadow: 5px 5px 20px blue;
+}
+
+/* pricingpage */
+.pricecarttext {
+  list-style: none;
+  color: #cdb30c;
+  font-size: 17px;
+}
+.pricetextsize {
+  font-size: 30px;
+}
+.pricecolorblack {
+  color: black;
+}
+
+/* contactpage  */
+.confirstbgimg {
+  background-image: url(./assets/bg_4.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 657px;
+}
+.condivh {
+  height: 550px;
+}
+.concolor {
+  color: white;
+}
+.conahraf {
+  text-decoration: none;
+}
+.conahraf:hover {
+  color: #cdb30c;
+}
+.contextbox {
+  height: 40px;
+}
+.con2div {
+  background-color: whitesmoke;
+}
+.conmaph {
+  height: 400px;
+}
