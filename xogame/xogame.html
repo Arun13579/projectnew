@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>XO GAME</title>
+    <style>
+      .head{
+        color:white;
+      }
+  .bu{
+    height: 150%;
+    width: 10%;
+    font-size: 150%;
+  }
+body{
+  background-color: #202124;;
+}
+.result{
+  height: 50%;
+  width: 25%;
+}
+#b11{
+  font-size: 200%;
+}
+#b10{
+  font-size: 200%;
+}
+.restart{
+  height: 100%;
+  width: 20%;
+}
+.re{
+  height: 100%;
+  width: 80%;
+}
+b{
+  visibility: hidden;
+}
+    </style>
+</head>
+<body>
+     <div class="container">
+    <div class="row">
+      <div class="head mt-1">
+       <center><h1>XO GAME</h1></center>
+      </div>
+            <div class="btn mt-4 " role="group" aria-label="Basic example">
+            <button type="button" id="b1" onclick="fn(id)" class="btn btn-info bu"><b>click</b></button>
+            <button type="button" id="b2" onclick="fn(id)" class="btn btn-warning bu"><b>click</b></button>
+            <button type="button" id="b3" onclick="fn(id)" class="btn btn-info bu"><b>click</b></button>
+          </div>
+
+          <div class="btn mt-4 " role="group" aria-label="Basic example">
+            <button type="button" id="b4" onclick="fn(id)" class="btn btn-warning bu"><b>click</b></button>
+            <button type="button" id="b5" onclick="fn(id)" class="btn btn-info bu"><b>click</b></button>
+            <button type="button" id="b6" onclick="fn(id)" class="btn btn-warning bu"><b>click</b></button>
+          </div>
+
+          <div class="btn mt-4 " role="group" aria-label="Basic example">
+            <button type="button" id="b7" onclick="fn(id) " class="btn btn-info bu"><b>click</b></button>
+            <button type="button" id="b8" onclick="fn(id)" class="btn btn-warning bu"><b>click</b></button>
+            <button type="button" id="b9" onclick="fn(id)" class="btn btn-info bu"><b>click</b></button>
+          </div>
+          </div>
+          </div>
+          <div class="container-fluid">
+          <div class="row">
+            <button type="button" id="b11" class="btn btn-success mt-5 result">X TURN</button> 
+            <button type="button" id="b10" onclick="win()" class="btn btn-danger mt-5 result">GET RESULT</button>
+           <div class="mt-5">
+             <audio src="C:\HTML\xogame\Anbae Anbae.mp3" controls></audio>
+             <audio src="C:\HTML\xogame\Engeyo-Partha.mp3" controls></audio> </div>
+             <div class="restart offset-8">
+               <a href="C:\HTML\xogame.html"><button type="button" id="b12" class="btn btn-warning re"><h2>RESTART</h2></button> </a> 
+            </div>
+            
+     </div>
+     </div>
+
+    <script>
+      var temp="O",a;
+      function fn(id)
+      { 
+        a=id;
+       if(temp=="O")
+       { 
+        document.getElementById(a).innerHTML="X";
+        temp=document.getElementById(a).innerHTML="X"; 
+        document.getElementById("b11").innerHTML="O TURN";
+       }
+       else 
+       {
+          document.getElementById(a).innerHTML="O";  
+          temp=document.getElementById(a).innerHTML="O";  
+          document.getElementById("b11").innerHTML="X TURN";
+       }
+      }
+
+      // function fn1()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b1").innerHTML="X";
+      //   temp=document.getElementById("b1").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b1").innerHTML="O";  
+      //     temp=document.getElementById("b1").innerHTML="O";  
+      //     document.getElementById("b11").innerHTML="X TURN";
+      //  }
+      // }
+      // function fn2()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b2").innerHTML="X";
+      //   temp=document.getElementById("b2").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b2").innerHTML="O"; 
+      //     temp=document.getElementById("b2").innerHTML="O";  
+      //     document.getElementById("b11").innerHTML="X TURN"; 
+      //  }
+      // }
+      // function fn3()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b3").innerHTML="X";
+      //   temp=document.getElementById("b3").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b3").innerHTML="O";  
+      //     temp=document.getElementById("b3").innerHTML="O"; 
+      //     document.getElementById("b11").innerHTML="X TURN"; 
+      //  }
+      // }
+      // function fn4()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b4").innerHTML="X";
+      //   temp=document.getElementById("b4").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b4").innerHTML="O";  
+      //     temp=document.getElementById("b4").innerHTML="O";  
+      //     document.getElementById("b11").innerHTML="X TURN";
+      //  }
+      // }
+      // function fn5()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b5").innerHTML="X";
+      //   temp=document.getElementById("b5").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b5").innerHTML="O"; 
+      //     temp=document.getElementById("b5").innerHTML="O";  
+      //     document.getElementById("b11").innerHTML="X TURN"; 
+      //  }
+      // }
+      // function fn6()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b6").innerHTML="X";
+      //   temp=document.getElementById("b6").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b6").innerHTML="O";  
+      //     temp=document.getElementById("b6").innerHTML="O";  
+      //     document.getElementById("b11").innerHTML="X TURN";
+      //  }
+      // }
+      // function fn7()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b7").innerHTML="X";
+      //   temp=document.getElementById("b7").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b7").innerHTML="O";  
+      //     temp=document.getElementById("b7").innerHTML="O";  
+      //     document.getElementById("b11").innerHTML="X TURN";
+      //  }
+      // }
+      // function fn8()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b8").innerHTML="X";
+      //   temp=document.getElementById("b8").innerHTML="X"; 
+      //   document.getElementById("b11").innerHTML="O TURN";
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b8").innerHTML="O"; 
+      //     temp=document.getElementById("b8").innerHTML="O"; 
+      //     document.getElementById("b11").innerHTML="X TURN";  
+      //  }
+      // }
+      // function fn9()
+      // { 
+      //  if(temp=="O")
+      //  { 
+      //   document.getElementById("b9").innerHTML="X";
+      //   temp=document.getElementById("b9").innerHTML="X";  
+      //   document.getElementById("b11").innerHTML="O TURN";                       
+      //  }
+      //  else 
+      //  {
+      //     document.getElementById("b9").innerHTML="O";  
+      //     temp=document.getElementById("b9").innerHTML="O";  
+      //     document.getElementById("b11").innerHTML="X TURN";
+      //  }
+      // }
+     
+      function win()
+      {
+        if(
+          ((document.getElementById("b1").innerHTML=="X")&&(document.getElementById("b2").innerHTML=="X")&&(document.getElementById("b3").innerHTML=="X")||
+          (document.getElementById("b4").innerHTML=="X")&&(document.getElementById("b5").innerHTML=="X")&&(document.getElementById("b6").innerHTML=="X")||
+          (document.getElementById("b7").innerHTML=="X")&&(document.getElementById("b8").innerHTML=="X")&&(document.getElementById("b9").innerHTML=="X"))||
+
+          ((document.getElementById("b1").innerHTML=="X")&&(document.getElementById("b4").innerHTML=="X")&&(document.getElementById("b7").innerHTML=="X")||
+          (document.getElementById("b2").innerHTML=="X")&&(document.getElementById("b5").innerHTML=="X")&&(document.getElementById("b8").innerHTML=="X")||
+          (document.getElementById("b3").innerHTML=="X")&&(document.getElementById("b6").innerHTML=="X")&&(document.getElementById("b9").innerHTML=="X"))||
+
+          ((document.getElementById("b2").innerHTML=="X")&&(document.getElementById("b5").innerHTML=="X")&&(document.getElementById("b8").innerHTML=="X")||
+          (document.getElementById("b4").innerHTML=="X")&&(document.getElementById("b5").innerHTML=="X")&&(document.getElementById("b6").innerHTML=="X"))||
+
+          ((document.getElementById("b1").innerHTML=="X")&&(document.getElementById("b5").innerHTML=="X")&&(document.getElementById("b9").innerHTML=="X")||
+          (document.getElementById("b3").innerHTML=="X")&&(document.getElementById("b5").innerHTML=="X")&&(document.getElementById("b7").innerHTML=="X") )
+          )
+        {
+          document.getElementById("b10").innerHTML="X WON";  
+        }
+        else if(
+          ((document.getElementById("b1").innerHTML=="O")&&(document.getElementById("b2").innerHTML=="O")&&(document.getElementById("b3").innerHTML=="O")|| 
+          (document.getElementById("b4").innerHTML=="O")&&(document.getElementById("b5").innerHTML=="O")&&(document.getElementById("b6").innerHTML=="O")|| 
+          (document.getElementById("b7").innerHTML=="O")&&(document.getElementById("b8").innerHTML=="O")&&(document.getElementById("b9").innerHTML=="O"))||
+
+          ((document.getElementById("b1").innerHTML=="O")&&(document.getElementById("b4").innerHTML="O")&&(document.getElementById("b7").innerHTML=="O")||
+          (document.getElementById("b2").innerHTML=="O")&&(document.getElementById("b5").innerHTML=="O")&&(document.getElementById("b8").innerHTML=="O")||
+          (document.getElementById("b3").innerHTML=="O")&&(document.getElementById("b6").innerHTML=="O")&&(document.getElementById("b9").innerHTML=="O"))||
+
+          ((document.getElementById("b2").innerHTML=="O")&&(document.getElementById("b5").innerHTML=="O")&&(document.getElementById("b8").innerHTML=="O")||
+          (document.getElementById("b4").innerHTML=="O")&&(document.getElementById("b5").innerHTML=="O")&&(document.getElementById("b6").innerHTML=="O"))||
+
+          ((document.getElementById("b1").innerHTML=="O")&&(document.getElementById("b5").innerHTML=="O")&&(document.getElementById("b9").innerHTML=="O")||
+          (document.getElementById("b3").innerHTML=="O")&&(document.getElementById("b5").innerHTML=="O")&&(document.getElementById("b7").innerHTML=="O") )
+        )
+        {
+          document.getElementById("b10").innerHTML="O WON";  
+        }
+        else{
+          document.getElementById("b10").innerHTML="MATCH DRAW";  
+        }
+      }
+      
+    </script>
+</body>
+</html>
