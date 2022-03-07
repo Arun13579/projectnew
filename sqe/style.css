@@ -1,0 +1,370 @@
+/* .navopa{
+    }   */
+.navfont {
+  font-size: 18px;
+  font-weight: 500;
+}
+.navcolor {
+  color: white !important;
+}
+.navcolor:hover {
+  color: orangered !important;
+}
+.firstimg {
+  height: 650px;
+  background-image: url(./assets/h1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+}
+.digi {
+  color: orangered;
+}
+.grow {
+  font-weight: bolder;
+  font-size: 60px;
+  color: white;
+}
+.lorem {
+  color: white;
+  font-size: 17px;
+}
+.lorem1 {
+  color: white;
+  font-size: 20px;
+  border: 2.9px solid orangered;
+}
+.lorem1:hover {
+  color: white;
+  font-size: 20px;
+  background-color: orangered;
+}
+.lorem2 {
+  color: white;
+  font-size: 20px;
+  border: 2.9px solid orangered;
+  background-color: orangered;
+}
+.firstpage0 {
+  height: 160px;
+  overflow: hidden;
+}
+/* .home22{
+        background-color: white;
+        height: 700px;
+    } */
+.hp1 {
+  color: black;
+  font-size: 18px;
+}
+.sp2 {
+  height: 300px;
+  /* background-color: rgb(231, 231, 231); */
+  background-color: #fff;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.homeshadow {
+  box-shadow: 8px 8px 10px 8px rgb(150, 147, 147);
+}
+.sp2img {
+  border: 3px solid black;
+  border-radius: 4px;
+  background-color: orangered;
+}
+.sp2i {
+  color: orangered;
+}
+.sp2i:hover {
+  color: blue;
+  border: 10px solid rgb(231, 231, 231);
+  border-radius: 50px;
+  background-color: rgb(231, 231, 231);
+}
+.p2ii {
+  border: 10px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  background-color: rgb(231, 231, 231);
+}
+/* .about{
+        height:600px;
+    } */
+.ab {
+  color: black;
+  font-size: 20px;
+  border: 2.9px solid orangered;
+}
+.ab:hover {
+  color: white;
+  font-size: 20px;
+  background-color: orangered;
+}
+/* .aboutimg{
+        background-image: url(../sqe/assets/about.png);
+        background-size:cover;
+      } */
+
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(./assets/skills.jpg);
+
+  /* Full height */
+  height: 53.5%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paremty {
+  background-color: none;
+  height: 1px;
+  width: 1px;
+}
+/* .rangecolor{
+       background-color: orangered
+     } */
+
+.serv {
+  height: 650px;
+  /* background-color: yellow; */
+  overflow: hidden;
+}
+/* .mobi {
+  background-image: url(./assets/services.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+} */
+.workball {
+  color: rgb(20, 18, 18);
+  font-size: 18px;
+  border: 2.9px solid orangered;
+  background-color: orangered;
+}
+.workball:hover {
+  color: white;
+  background-color: black;
+}
+.workb {
+  color: rgb(20, 18, 18);
+  font-size: 18px;
+  border: 2.9px solid orangered;
+}
+.workb:hover {
+  background-color: orangered;
+  color: white;
+}
+.wil {
+  height: 240px;
+  overflow: hidden;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url(./assets/hero-01.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parlx2 {
+  /* height: 280px; */
+  background-color: rgba(255, 77, 28, 0.8);
+}
+.parlx3 {
+  height: 200px;
+}
+.wii {
+  border: 20px solid white;
+  background-color: white;
+  border-radius: 30%;
+  color: orangered;
+}
+.wt {
+  color: white;
+}
+.til {
+  height: 290px;
+  overflow: hidden;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url(./assets/hero-02.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parlx4 {
+  /* height: 750px; */
+  background-color: rgba(255, 77, 28, 0.8);
+}
+.parlx5 {
+  height: 520px;
+}
+/* .tci {
+  background-image: url(./assets/12134283.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+} */
+
+.tib {
+  border: 2px solid orangered;
+  border-radius: 5px;
+}
+
+.pfd {
+  height: 420px;
+  border: 2.9px solid black;
+  border-radius: 5px;
+  background-color: rgb(48, 45, 45);
+  overflow: hidden;
+}
+.pfdpre {
+  height: 420px;
+  border: 2.9px solid black;
+  border-radius: 5px;
+  background-color: rgb(83, 0, 56);
+  overflow: hidden;
+}
+.ph {
+  height: 70px;
+  background-color: black;
+  overflow: hidden;
+}
+.ped {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  overflow: hidden;
+}
+.obh {
+  height: 380px;
+  overflow: hidden;
+}
+.pb {
+  border: 2.9px solid orangered;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+}
+.pb:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.blb {
+  color: white;
+  font-size: 18px;
+  border: 2.9px solid black;
+  background-color: rgb(48, 47, 47);
+}
+.blb:hover {
+  background-color: orangered;
+  color: white;
+}
+.obtb {
+  height: 40px;
+  border: 2.9px solid orangered;
+  font-size: 15px;
+  overflow: hidden;
+}
+.osub {
+  color: orangered;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.ob2 {
+  color: black;
+  border: 2px solid orangered;
+  background-color: orangered;
+}
+.ob2:hover {
+  color: white;
+}
+.ch {
+  height: 110px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.ci {
+  border: 10px solid orangered;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
+.ci:hover {
+  color: black;
+}
+.ce {
+  height: 480px;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.ctb {
+  height: 40px;
+}
+
+.cmm {
+  height: 150px;
+  overflow: hidden;
+}
+.cbb {
+  background-color: orangered;
+  color: white;
+  border: 2.9px solid orangered;
+  font-size: 15px;
+}
+.cbb:hover {
+  color: white;
+  border: 2.9px solid black;
+  background-color: #343a40;
+}
+
+.map {
+  height: 300px;
+  /* background-image: url(../sqe/assets/google_maps_hello_world.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; */
+}
+
+.ei {
+  color: orangered;
+}
+.ei:hover {
+  color: black;
+}
+.my {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: orangered;
+  font-weight: bolder;
+}
+.my:hover {
+  color: black;
+}
+.mya {
+  text-decoration: none;
+}

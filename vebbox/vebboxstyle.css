@@ -1,0 +1,152 @@
+.ncolor {
+  background-color: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 50%);
+}
+
+.b1 {
+  border: 1px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+}
+.btd {
+  text-decoration: none;
+  color: white;
+}
+.b1:hover {
+  background-color: #348eca;
+  color: white;
+}
+.navcolor {
+  font-weight: 500 !important;
+}
+.navcolor:hover {
+  color: #3498db !important;
+}
+.homesize {
+  height: 470px;
+}
+
+.b2 {
+  border: 1px solid #3498db;
+  background-color: white;
+  /* color: #3498db; */
+  border-radius: 30px;
+  height: 50px;
+}
+.btd2 {
+  text-decoration: none;
+  color: #3498db;
+  font-size: 20px;
+}
+.b2:hover {
+  background-color: #348eca !important;
+  color: white !important;
+}
+.gf {
+  font-size: 45px;
+}
+.gfd {
+  color: rgb(68, 67, 67);
+}
+.serh1 {
+  height: 10px;
+  background-color: black;
+}
+.s1 {
+  height: 450px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 50%);
+  overflow: hidden;
+}
+.sts {
+  font-size: 18px;
+}
+.s1:hover {
+  color: white;
+  background-color: #3498db;
+}
+.sih {
+  border: 15px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  border-radius: 50%;
+}
+.sih:hover {
+  border: 15px solid white;
+  background-color: white;
+  color: #3498db;
+  border-radius: 50%;
+}
+.ps {
+  height: 350px;
+  border-radius: 10px;
+}
+.pimg1 {
+  background-image: url(./assets/pro1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pimg2 {
+  background-image: url(./assets/pro2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pimg3 {
+  background-image: url(./assets/pro3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pimg4 {
+  background-image: url(./assets/pro4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pis {
+  height: 160px;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+}
+.pts {
+  font-size: 18px;
+}
+.pis:hover {
+  color: white;
+  background-color: #3498db !important;
+}
+.is {
+  font-size: 35px;
+}
+.lb {
+  background-color: #3498db;
+  color: white;
+  border-radius: 18px;
+  height: 40px;
+}
+.cih {
+  border: 10px solid #3498db;
+  background-color: #3498db;
+  border-radius: 50%;
+  color: white;
+}
+.cih:hover {
+  border: 10px solid #3498db;
+  background-color: #3498db;
+  border-radius: 50%;
+  color: black;
+}
+.contacticon {
+  color: #3498db;
+}
+.foot {
+  background-color: whitesmoke;
+}
+.my {
+  font-style: italic;
+  font-weight: bolder;
+  font-family: serif;
+  color: orangered;
+}
