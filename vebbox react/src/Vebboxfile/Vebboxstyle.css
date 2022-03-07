@@ -1,0 +1,68 @@
+.navcolor {
+  box-shadow: 0 0 9px 0 black;
+  background-color: #fff;
+}
+.navbutton {
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+}
+.homec {
+  height: 400px;
+}
+
+.serdivheit {
+  height: 410px;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+  background-color: #fff;
+  font-size: 18px;
+}
+.serdivheit:hover {
+  color: #fff;
+  background-color: #3498db;
+}
+
+.productheit {
+  height: 300px;
+}
+.productimg {
+  background-image: url(./Assets/pro1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #3498db; */
+}
+.prodivheit {
+  height: 150px;
+  overflow: hidden;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  background-color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.prodivheit:hover {
+  color: #fff;
+  background-color: #3498db;
+}
+.aboutts {
+  font-size: 19px;
+}
+.cih {
+  border: 10px solid #3498db;
+  background-color: #3498db;
+  border-radius: 50%;
+  color: white;
+}
+.cih:hover {
+  border: 10px solid #3498db;
+  background-color: #3498db;
+  border-radius: 50%;
+  color: black;
+}
+
+.my {
+  font-style: italic;
+  font-weight: bolder;
+  font-family: serif;
+  color: orangered;
+}
