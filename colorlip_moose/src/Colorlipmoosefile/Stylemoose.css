@@ -1,0 +1,87 @@
+.texts1 {
+  font-size: 16vw;
+  color: #313b44;
+  line-height: 1.2;
+  font-weight: 900;
+}
+.texts2 {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #313b44;
+}
+
+.texts3 {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Poppins", Arial, sans-serif;
+}
+.smallimg {
+  height: 80px;
+}
+.smallimgsurcul {
+  border-radius: 100%;
+}
+.firstimgs1 {
+  height: 650px;
+  color: white;
+}
+.textdiv2s {
+  font-size: 4vw;
+  color: #313b44;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.color {
+  color: white;
+}
+.color2 {
+  color: #313b44;
+}
+.btcolor {
+  color: #588da8;
+}
+.anger {
+  text-decoration: none;
+}
+.foot {
+  border-radius: 50%;
+  border: 15px solid #588da8;
+  color: white;
+  background-color: #588da8;
+}
+.my {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: orangered;
+  font-weight: bolder;
+  text-shadow: 5px 5px 20px blue;
+}
+.fontsize {
+  font-size: 55px;
+}
+.contacticon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  /* border: 25px solid #588da8; */
+  color: white;
+  background-color: #588da8;
+}
+.contactmap {
+  height: 500px;
+}
+.contactimgheit {
+  height: 500px;
+  width: 100%;
+}
+.cardimgsize {
+  height: 400px;
+}
+.lineheit {
+  line-height: 1.5;
+}
+.contactboxshadow {
+  background: #fff;
+  box-shadow: 0 2px 25px -16px rgb(0 0 0 / 26%);
+}
